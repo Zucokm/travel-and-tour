@@ -1,0 +1,124 @@
+.container {
+    margin: 0;
+    padding: 0 10%;
+}
+
+.header {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    opacity: 0.8;
+    top: 0;
+    position: sticky;
+}
+
+li {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: rgba(164, 142, 13, 0.976);
+    border-bottom: 1px solid black;
+}
+
+#language {
+    padding: 10px 16px;
+    border-radius: 10px;
+}
+
+.language {
+    padding-top: 20px;
+}
+
+.backgroundImg {
+    background-image: url('img/pexels-zaw-win-htun-8013719.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.stay {
+    padding-top: 20%;
+    font-size: 40px;
+    color: gold;
+}
+
+.topDestinations {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.destinationImgContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.destinationImg {
+    width: 25%;
+    text-align: center;
+}
+
+.destination {
+    width: 80%;
+    border-radius: 10px;
+    transition: width 1s, height 2s;
+}
+
+.destination:hover {
+    width: 100%;
+    box-shadow: 8px 8px 10px black;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(30, 20, 45);
+    height: 300px;
+    border-radius: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footerItemContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.footerItem {
+    margin-top: 40px;
+    width: 25%;
+    text-align: center;
+}
+
+.footerMenuItem {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.footerMenuItem:hover {
+    border-bottom: 1px solid white;
+    color: gold;
+}

@@ -1,0 +1,79 @@
+.mainContainer {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.name {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.nameInput {
+    width: 47%;
+    height: 35px;
+    background-color: rgb(219, 227, 233);
+    border: none;
+    border-radius: 8px;
+    padding-left: 8px;
+}
+
+.email {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.emailInput {
+    width: 95%;
+    height: 35px;
+    border-radius: 9px;
+    border: none;
+    background-color: rgb(219, 227, 233);
+    padding-left: 18px;
+}
+
+.birth {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#option {
+    width: 30%;
+    margin-right: 10px;
+    height: 35px;
+    border-radius: 9px;
+}
+
+.genter {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#genter {
+    width: 50%;
+    height: 35px;
+    border-radius: 9px;
+}
+
+.button {
+    text-align: center;
+    width: 100%;
+}
+
+#button {
+    width: 70%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: aquamarine;
+}
+
+#button:hover {
+    background-color: rgb(0, 255, 174);
+    color: white;
+}
+
+
